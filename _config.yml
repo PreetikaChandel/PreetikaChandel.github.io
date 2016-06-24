@@ -2,8 +2,8 @@
 title: HOME
 tagline: Personal Blog
 email: preetika.nith@gmail.com
-baseurl: "http://PreetikaChandel.github.io" # the subpath of your site, e.g. /blog/
-url: "http://PreetikaChandel.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://preetikachandel.github.io" # the base hostname & protocol for your site
 twitter_username: preetika
 github_username:  PreetikaChandel
 
