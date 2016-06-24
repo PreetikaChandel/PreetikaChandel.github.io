@@ -1,0 +1,10 @@
+{% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+{% if include.caption %}
+    <figure>
+        <img src="/assets/posts/{{/media/preetika/Drive-E/meee/8th sem/Papers/WOSA-Delhi-2016-03-22/WOSA-Delhi/image.jpg}}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+        <figcaption>{{ include.caption }}</figcaption>
+    </figure>
+{% else %}
+    <img src="/assets/posts/{{/media/preetika/Drive-E/meee/8th sem/Papers/WOSA-Delhi-2016-03-22/WOSA-Delhi/image.jpg}}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+{% endif %}
+

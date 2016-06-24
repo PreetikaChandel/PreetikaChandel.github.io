@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Node On Linux</title>
+  <meta name="description" content="Node.jsNode.js is a JavaScript-based framework/platform used to develop I/O intensive web applications. Being open source, completely free, anyone can contri...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://preetikachandel.github.io/linux/2015/04/28/Node.html">
+  <link rel="alternate" type="application/atom+xml" title="HOME" href="http://preetikachandel.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header" >
+
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">HOME</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/archive/">Archive</a>
+          
+        
+          
+          <a class="page-link" href="/categories/">Categories</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+    
+  <header class="post-header">
+    <h1 class="post-title">Node On Linux</h1>
+
+  <p class="post-meta">Apr 28, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <h1 id="nodejs">Node.js</h1>
+<p>Node.js is a JavaScript-based framework/platform used to develop I/O intensive web applications. Being open source, completely free, anyone can contribute and be a part of it.</p>
+
+<h1 id="npm">NPM</h1>
+<p>NVM acts as a packet manager for node. It provides online repositories for node.js projects, facilitates command line interface for the installation of Node.js packages, version management and dependency management.<br />
+Installation can be done using following commands:</p>
+
+<ul>
+  <li>
+    <p>For installing packages <br />
+npm install async</p>
+  </li>
+  <li>
+    <p>For installing dependencies <br />
+npm install</p>
+  </li>
+  <li>
+    <p>For installing modules <br />
+npm install <module name=""></module></p>
+  </li>
+</ul>
+
+<h1 id="nvm">NVM</h1>
+<p>NVM supports version management of node.js versions. It is a simple bash script that provides the functionality of quickly switching to other versions of node.js.<br />
+NVM can be installed using following steps:</p>
+
+<ol>
+  <li>
+    <p>Updating the packages already present<br />
+sudo apt-get update</p>
+  </li>
+  <li>
+    <p>Installing the build essential packages <br />
+sudo apt-get install build-essential libssl-dev</p>
+  </li>
+  <li>
+    <p>Installing NVM <br />
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash</p>
+  </li>
+  <li>
+    <p>Once this is done, close and restart the terminal and add the following command<br />
+source ~/.profile</p>
+  </li>
+</ol>
+
+<h1 id="node-version">Node version</h1>
+
+<ul>
+  <li>
+    <p>To check the node versions present on your machine <br />
+nvm ls</p>
+  </li>
+  <li>
+    <p>To switch to a particular version <br />
+nvm use &lt;-version-&gt;</p>
+  </li>
+</ul>
+
+<hr />
+
+  </article>
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//preetikachandel.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      </div>
+    </div>
+
+    <footer>
+<center><p>PC©2015
+<br>	
+Powered by <a href="http://jekyllbootstrap.com">Jekyll</a></p></center>
+</footer>
+
+
+  </body>
+
+</html>

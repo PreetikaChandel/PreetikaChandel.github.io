@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOME</title>
+    <description></description>
+    <link>http://preetikachandel.github.io/</link>
+    <atom:link href="http://preetikachandel.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Jun 2016 23:21:48 +0530</pubDate>
+    <lastBuildDate>Thu, 23 Jun 2016 23:21:48 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.0</generator>
+    
+      <item>
+        <title>Dynamic Data Filtering</title>
+        <description>&lt;p&gt;The emerging field of wireless network consisting of spatially distributed autonomous devices to sense physical or environmental conditions, has gained much attention of the researchers. Being a hot topic of research, I decided to go into its depths and explore new areas related to data dissemination and power consumption. The studies showed that the presence of limited power sources acts as a critical problem here. So, a dynamic filtering scheme has been discussed here to resolve this problem for its efficient use.&lt;/p&gt;
+
+&lt;p&gt;The data to be disseminated by a Sensor Node(SN) is first filtered and then sent to the Cluster Head Node(CHN). Sensing a slowly changing event with very high frequency leads to wastage of energy as it may generate redundant data. Whereas, sensing rapidly changing event with low frequency may cause loss of useful information. Therefore, spurious and redundant data filtering has to be done which itself requires a lot of efforts. The unpredictable change in the behavior of an event induces a need to have a dynamic and slidable data filtering window, which changes its position by self adjusting its lower and upper bounds as the sensor readings go up or down. As a result, once SN is deployed it remains self sustaining.&lt;/p&gt;
+
+&lt;p&gt;This way only the useful values lying inside the window are disseminated to CHN. Thus, significant amount of energy is saved by eliminating undesirable inter-node transmissions thereby reducing the cost of power of the sensor network operation.&lt;/p&gt;
+
+&lt;h1 id=&quot;simulation&quot;&gt;Simulation&lt;/h1&gt;
+
+&lt;p&gt;To validate the proposal, a simulation was conducted on 10,000 random temperature readings between 13 deg C to 47 deg C. The scenario is depicted in two ways.&lt;/p&gt;
+
+&lt;p&gt;a) The temperature readings are kept constant for various Common node Dissemination intervals (CNDI) and the net power consumption is calculated for each CNDI.&lt;/p&gt;
+
+&lt;p&gt;b) The temperature readings are different for all Common node Dissemination intervals (CNDI) and the net power consumption is calculated for each CNDI.&lt;/p&gt;
+
+&lt;p&gt;Lately, I along with my mates have been writing a research paper on this. The complete algorithm and the simulation results are depicted there. I am looking forward to present it out at the earliest. :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Wed, 25 May 2016 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/wireless-sensor-networks/2016/05/25/Dynamic%20data%20filtering.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/wireless-sensor-networks/2016/05/25/Dynamic%20data%20filtering.html</guid>
+        
+        
+        <category>wireless-sensor-networks</category>
+        
+      </item>
+    
+      <item>
+        <title>Facial Expression Recognition</title>
+        <description>&lt;p&gt;The human face reveals our current focus of attention,  affective state of the person, his temperament and personality; in brief, facial expressions regulate our interactions with the environment and people in our vicinity. Facial expression recognition is a visual pattern recognition problem. The issue of machine recognition of human facial expression includes three subproblem domains: (1) discovering faces in the scene, (2) extracting facial features from the detected face region, (3) analyzing the motional changes in the appearance of facial features, and classifying this information into some facial-expression-interpretative categories (e.g., emotions, facial muscle actions, etc.)&lt;/p&gt;
+
+&lt;p&gt;Presently, I am working on to create a facial expression recognizer to detect seven basic emotions (happy, sad, fear, anger, neutral, surprise, disgust). Having gone through various methods including PCA, SVM, Artificial Neural Network seemed most apt to be used as it significantly improves the accuracy and the robustness of local searching on faces with expression variation and ambiguous contours.&lt;/p&gt;
+
+&lt;p&gt;As the part of the work I had made use of Cohn Kanade database which currently includes 2105 digitized image sequences from 182 adult subjects of varying ethnicity, performing multiple tokens of most primary FACS action units. Facial behavior of 210 adults between the ages of 18 and 50 years were recorded.  The sample constituted 69% female, 31% male, 81% Euro-American, 13% Afro-American, and 6% other groups.&lt;/p&gt;
+
+&lt;p&gt;Here, neural network classifier takes gray scale image as input and gives an expression as output. This process is performed by first preprocessing the input image and then training or testing the image on  neural network which in turn classifies the image into one of the above mentioned categories of emotions. Steps involved are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Training Neural Network with Input face images
+Back Propagation feed forward Artificial Neural Network is used for training the input face images. The computed Eigenfaces of the input face images are fed to the neural Networks. After setting the parameters of neural networks are trained with Eigenfaces of the input images via input layer, hidden layer and output layer. Each Eigenfaces image distance is compared with each other. The errors at the output layer are sent back to the previous layers that are hidden and weights are updated which minimize the error.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Testing the ANN with Tested Face Image
+For face recognition, the eigenfaces images of the test face image is intended by feature extraction based on PCA. This Eigenfaces image is given to the trained neural network. The tested Eigenfaces is compared with the Eigenfaces of the trained neural network for finest match result using the Log - sigmoid function values. The minimum distance between the tested Eigenfaces image and the trained input Eigenfaces image is not as much of as the threshold value. The maximum scored value corresponding to a particular expression depicts the likelihood of that expression of a person in an image.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sun, 15 May 2016 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/machine-learning/2016/05/15/Facial%20expression%20recognition%20using%20ANN.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/machine-learning/2016/05/15/Facial%20expression%20recognition%20using%20ANN.html</guid>
+        
+        
+        <category>machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Openstack</title>
+        <description>&lt;p&gt;Openstack is a world wide community of giant companies and proficient contributors with a vision of building cloud software. Openstack provides free and open source platform for building and managing public and private clouds. It is a set of projects that facilitates users and enterprises to store and process their data in third party data centers. The community aims to develop the strongest, most robust, and most secure product. To learn more about the path to cloud, one can refer &lt;a href=&quot;https://www.openstack.org/&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Core of the openstack consists of nine key components: Nova, Swift, Cinder, Neutron, Horizon, Keystone, Glance, Ceilometer, Heat.&lt;/p&gt;
+
+&lt;h1 id=&quot;initial-contribution&quot;&gt;Initial contribution:&lt;/h1&gt;
+
+&lt;p&gt;This summer I decided to work on Openstack as my first major contribution to the world of open source. The community welcomed me with open arms and helped me get started from the scratch. Nikhil Komawar one of the technical lead at the &lt;a href=&quot;http://docs.openstack.org/developer/glance/&quot;&gt;Glance&lt;/a&gt; and &lt;a href=&quot;https://wiki.openstack.org/wiki/Searchlight&quot;&gt;Searchlight&lt;/a&gt; project assisted me with the working and flow of the Glance  model. Further, the potential contributors on the IRC channel helped me fix the proxy and other related issues.&lt;/p&gt;
+
+&lt;p&gt;After the successful &lt;a href=&quot;http://docs.openstack.org/developer/sahara/devref/devstack.html&quot;&gt;installation&lt;/a&gt; of &lt;a href=&quot;http://docs.openstack.org/developer/devstack/&quot;&gt;Devstack&lt;/a&gt; I managed to mark my first contribution by accessing gerrit using &lt;a href=&quot;http://docs.openstack.org/infra/manual/developers.html&quot;&gt;Developer’s Guide&lt;/a&gt;. While going through this, I learned a lot about the open source culture, bug-fixing, project documentation, review system. I surely can anticipate that this learning experience would prove out to be of great help in near future.&lt;/p&gt;
+
+&lt;p&gt;It’s been more than a month being a part of this friendly community and I am already enjoying it. The constant guidance provided by Nikhil motivated me to extend my work. With keen interest, I am looking forward to contributing more to this emerging field of cloud computing.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 18 Apr 2016 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/open-source/2016/04/18/Openstack%20.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/open-source/2016/04/18/Openstack%20.html</guid>
+        
+        
+        <category>open-source</category>
+        
+      </item>
+    
+      <item>
+        <title>Improving ICT</title>
+        <description>&lt;p&gt;This march I got the opportunity to attend the third &lt;a href=&quot;http://nba-wosa.in/contentpages/home.aspx&quot;&gt;World Summit on Accreditation&lt;/a&gt; which took place in Delhi, India. It served as a major platform to bring like minded people across the globe to share their views on the researches done to have a significant learning impact on students. Focusing on present world’s education system, one of the major topic of discussion was the &lt;a href=&quot;https://en.wikipedia.org/wiki/Information_and_communications_technology&quot;&gt;Information Communication Technology&lt;/a&gt; (ICT) enhancement. As a part of this, I had delivered a talk on ‘Digital game based learning in Computer Science education’.&lt;/p&gt;
+
+&lt;h1 id=&quot;gist&quot;&gt;Gist&lt;/h1&gt;
+&lt;p&gt;Gamification provides the experience of real world inside the virtual environment. Within an effective gaming zone, we work towards a goal, select actions and experience the consequences of those actions along the way. The provision of attractive graphical environments, interesting scenarios and high interactivity brings deep interest and provides motivation. Games incorporate self-reliance in addition to self-determination when it comes to the learner’s ability to create progress in an incrementally challenging staged natural environment. To support this fact, a survey was conducted.&lt;/p&gt;
+
+&lt;p&gt;The survey results and the responses emphasized today’s requirement to switch to active learning processes. The effectiveness of digital game based learning was further affirmed by the implementation of a card sorting game which was specifically designed to assist students to completely get acquainted with the various sorting algorithms used in data structures curriculum.&lt;/p&gt;
+
+&lt;h1 id=&quot;big-thanks&quot;&gt;Big thanks!&lt;/h1&gt;
+&lt;p&gt;In all, I feel thankful to have had the opportunity to share the stage with various renowned personalities from different parts of the world. This summit was a big learning experience for me. I am grateful to all the scholars who appreciated this work and the organizing staff for the excellent management. I would also like to extend my gratitude to one of the prominent academician &lt;a href=&quot;http://serve.me.nus.edu.sg/seeram_ramakrishna/aboutsr.html&quot;&gt;prof. Seeram Ramakrishna&lt;/a&gt; for sharing words, taking suggestions and giving a special reference to this work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image.jpg&quot; alt=&quot;&quot; height=&quot;330px&quot; width=&quot;450px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It does feel good to see your ideas getting recognition and being implemented. :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Fri, 25 Mar 2016 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/active-learning/2016/03/25/WOSA.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/active-learning/2016/03/25/WOSA.html</guid>
+        
+        
+        <category>active-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Anaphora Resolution</title>
+        <description>&lt;p&gt;Natural Language Processing aims at designing and building softwares that can analyze, understand, and generate human languages, so that eventually humans will be able to communicate with the machines using natural languages. NLP works at the intersection of  computer science, artificial intelligence, and computational linguistics. Processing or understanding of human languages, especially written texts, requires analysis and implementation at different linguistic levels such as Part-of-Speech tagging at word level;  syntactic parsing at the sentence or structural level; semantic analysis at the level of meaning and finally discourse analysis at the discourse or text level. Resolving anaphora is another prime task in this field.&lt;/p&gt;
+
+&lt;p&gt;Reference to an entity that has previously been used in a discourse is known as anaphora. Anaphora resolution is the process of identifying the referent of the referred expression. The resolution requires much attention in case of Hindi language. The motivation of anaphora resolution in case of Hindi language comes from its real time applications in NLP which involves offline question answering, information extraction, automatic summarization, machine translation.&lt;/p&gt;
+
+&lt;p&gt;The work that I am upto these days is based on the examination and development of assets which could be utilized for anaphora resolution in Hindi language and exploration of linguistic features to be useful in the resolution process. The algorithm is based on Mitkov’s knowledge poor approach which does not rely on linguistic and domain knowledge, work even without parsing and employs AI techniques like neural networks, situation semantic framework etc.&lt;/p&gt;
+
+&lt;p&gt;First, the annotated input text is created using syntactic constraints like gender agreement, number agreement, honorifics and then the incorrect expressions are eliminated out after comparing. The remaining candidates are compared based on the score assigned to each candidate.
+Scoring scheme as well as some of the indicators used are specifically drawn for Hindi language. The highest scored NP(Noun Phrase) in the set of potential candidates is finally chosen as the antecedent. In a tie case, the closest candidate to the anaphora is chosen instead.&lt;/p&gt;
+
+&lt;p&gt;From the results, one could observe that a high accuracy resolution is attained by using simple and easy to understand text than the one involving complex co-reference relations.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Thu, 17 Dec 2015 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/natural-language-processing/2015/12/17/Anaphora%20Resolution.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/natural-language-processing/2015/12/17/Anaphora%20Resolution.html</guid>
+        
+        
+        <category>natural-language-processing</category>
+        
+      </item>
+    
+      <item>
+        <title>Node On Linux</title>
+        <description>&lt;h1 id=&quot;nodejs&quot;&gt;Node.js&lt;/h1&gt;
+&lt;p&gt;Node.js is a JavaScript-based framework/platform used to develop I/O intensive web applications. Being open source, completely free, anyone can contribute and be a part of it.&lt;/p&gt;
+
+&lt;h1 id=&quot;npm&quot;&gt;NPM&lt;/h1&gt;
+&lt;p&gt;NVM acts as a packet manager for node. It provides online repositories for node.js projects, facilitates command line interface for the installation of Node.js packages, version management and dependency management.&lt;br /&gt;
+Installation can be done using following commands:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;For installing packages &lt;br /&gt;
+npm install async&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For installing dependencies &lt;br /&gt;
+npm install&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For installing modules &lt;br /&gt;
+npm install &lt;module name=&quot;&quot;&gt;&lt;/module&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;nvm&quot;&gt;NVM&lt;/h1&gt;
+&lt;p&gt;NVM supports version management of node.js versions. It is a simple bash script that provides the functionality of quickly switching to other versions of node.js.&lt;br /&gt;
+NVM can be installed using following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Updating the packages already present&lt;br /&gt;
+sudo apt-get update&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Installing the build essential packages &lt;br /&gt;
+sudo apt-get install build-essential libssl-dev&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Installing NVM &lt;br /&gt;
+curl https://raw.githubusercontent.com/creationix/nvm/v0.25.0/install.sh | bash&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once this is done, close and restart the terminal and add the following command&lt;br /&gt;
+source ~/.profile&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;node-version&quot;&gt;Node version&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;To check the node versions present on your machine &lt;br /&gt;
+nvm ls&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To switch to a particular version &lt;br /&gt;
+nvm use &amp;lt;-version-&amp;gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Tue, 28 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://preetikachandel.github.io/linux/2015/04/28/Node.html</link>
+        <guid isPermaLink="true">http://preetikachandel.github.io/linux/2015/04/28/Node.html</guid>
+        
+        
+        <category>linux</category>
+        
+      </item>
+    
+  </channel>
+</rss>

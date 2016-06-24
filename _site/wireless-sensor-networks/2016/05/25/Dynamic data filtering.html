@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Dynamic Data Filtering</title>
+  <meta name="description" content="The emerging field of wireless network consisting of spatially distributed autonomous devices to sense physical or environmental conditions, has gained much ...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://preetikachandel.github.io/wireless-sensor-networks/2016/05/25/Dynamic%20data%20filtering.html">
+  <link rel="alternate" type="application/atom+xml" title="HOME" href="http://preetikachandel.github.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header" >
+
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">HOME</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/archive/">Archive</a>
+          
+        
+          
+          <a class="page-link" href="/categories/">Categories</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+    
+  <header class="post-header">
+    <h1 class="post-title">Dynamic Data Filtering</h1>
+
+  <p class="post-meta">May 25, 2016</p>
+  </header>
+
+  <article class="post-content">
+    <p>The emerging field of wireless network consisting of spatially distributed autonomous devices to sense physical or environmental conditions, has gained much attention of the researchers. Being a hot topic of research, I decided to go into its depths and explore new areas related to data dissemination and power consumption. The studies showed that the presence of limited power sources acts as a critical problem here. So, a dynamic filtering scheme has been discussed here to resolve this problem for its efficient use.</p>
+
+<p>The data to be disseminated by a Sensor Node(SN) is first filtered and then sent to the Cluster Head Node(CHN). Sensing a slowly changing event with very high frequency leads to wastage of energy as it may generate redundant data. Whereas, sensing rapidly changing event with low frequency may cause loss of useful information. Therefore, spurious and redundant data filtering has to be done which itself requires a lot of efforts. The unpredictable change in the behavior of an event induces a need to have a dynamic and slidable data filtering window, which changes its position by self adjusting its lower and upper bounds as the sensor readings go up or down. As a result, once SN is deployed it remains self sustaining.</p>
+
+<p>This way only the useful values lying inside the window are disseminated to CHN. Thus, significant amount of energy is saved by eliminating undesirable inter-node transmissions thereby reducing the cost of power of the sensor network operation.</p>
+
+<h1 id="simulation">Simulation</h1>
+
+<p>To validate the proposal, a simulation was conducted on 10,000 random temperature readings between 13 deg C to 47 deg C. The scenario is depicted in two ways.</p>
+
+<p>a) The temperature readings are kept constant for various Common node Dissemination intervals (CNDI) and the net power consumption is calculated for each CNDI.</p>
+
+<p>b) The temperature readings are different for all Common node Dissemination intervals (CNDI) and the net power consumption is calculated for each CNDI.</p>
+
+<p>Lately, I along with my mates have been writing a research paper on this. The complete algorithm and the simulation results are depicted there. I am looking forward to present it out at the earliest. :)</p>
+
+<hr />
+
+
+  </article>
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//preetikachandel.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+      </div>
+    </div>
+
+    <footer>
+<center><p>PC©2015
+<br>	
+Powered by <a href="http://jekyllbootstrap.com">Jekyll</a></p></center>
+</footer>
+
+
+  </body>
+
+</html>
