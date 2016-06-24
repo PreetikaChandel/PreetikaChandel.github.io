@@ -11,8 +11,8 @@ Openstack is a world wide community of giant companies and proficient contributo
 Core of the openstack consists of nine key components: Nova, Swift, Cinder, Neutron, Horizon, Keystone, Glance, Ceilometer, Heat.
 
 
-#Initial contribution:
-
+Initial contribution
+=====================
 
 This summer I decided to work on Openstack as my first major contribution to the world of open source. The community welcomed me with open arms and helped me get started from the scratch. Nikhil Komawar one of the technical lead at the [Glance](http://docs.openstack.org/developer/glance/) and [Searchlight](https://wiki.openstack.org/wiki/Searchlight) project assisted me with the working and flow of the Glance  model. Further, the potential contributors on the IRC channel helped me fix the proxy and other related issues. 
 
