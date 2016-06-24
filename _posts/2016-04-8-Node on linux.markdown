@@ -6,10 +6,12 @@ categories: Linux
 
 ---
 
-#Node.js
+Node.js
+=======
 Node.js is a JavaScript-based framework/platform used to develop I/O intensive web applications. Being open source, completely free, anyone can contribute and be a part of it.
 
-#NPM
+NPM
+====
 NVM acts as a packet manager for node. It provides online repositories for node.js projects, facilitates command line interface for the installation of Node.js packages, version management and dependency management.<br>
 Installation can be done using following commands:
 
@@ -22,7 +24,8 @@ Installation can be done using following commands:
 * For installing modules <br>
   npm install <module name>
 
-#NVM
+NVM
+====
 NVM supports version management of node.js versions. It is a simple bash script that provides the functionality of quickly switching to other versions of node.js.<br>
 NVM can be installed using following steps:
 
@@ -41,8 +44,8 @@ NVM can be installed using following steps:
 4. Once this is done, close and restart the terminal and add the following command<br>
    source ~/.profile
 
-#Node version
-
+Node version
+=============
 * To check the node versions present on your machine <br>
   nvm ls
 
