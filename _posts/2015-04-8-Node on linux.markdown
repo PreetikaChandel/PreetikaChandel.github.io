@@ -12,7 +12,7 @@ Node.js is a JavaScript-based framework/platform used to develop I/O intensive w
 
 NPM
 =====
-NVM acts as a packet manager for node. It provides online repositories for node.js projects, facilitates command line interface for the installation of Node.js packages, version management and dependency management.<br>
+NPM acts as a packet manager for node. It provides online repositories for node.js projects, facilitates command line interface for the installation of Node.js packages, version management and dependency management.<br>
 Installation can be done using following commands:
 
 * For installing packages <br>
