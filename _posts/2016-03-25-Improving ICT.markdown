@@ -5,7 +5,7 @@ date:   2016-03-25
 categories: Active-Learning
 ---
 
-This march I got the opportunity to attend the third [World Summit on Accreditation](http://nba-wosa.in/contentpages/home.aspx) which took place in Delhi, India. It served as a major platform to bring like minded people across the globe to share their views on the researches done to have a significant learning impact on students. Focusing on present world's education system, one of the major topic of discussion was the [Information Communication Technology](https://en.wikipedia.org/wiki/Information_and_communications_technology) (ICT) enhancement. As a part of this, I had delivered a talk on 'Digital game based learning in Computer Science education'. 
+This march I got the opportunity to attend the third [World Summit on Accreditation](http://nba-wosa.in/contentpages/home.aspx) which took place in Delhi, India. It served as a major platform to bring like minded people across the globe, to share their views on the researches done, to have a significant learning impact on students. Focusing on present world's education system, one of the major topic of discussion was the [Information Communication Technology](https://en.wikipedia.org/wiki/Information_and_communications_technology) (ICT) enhancement. As a part of this, I had delivered a talk on 'Digital game based learning in Computer Science education'. 
 
 Gist
 =====
