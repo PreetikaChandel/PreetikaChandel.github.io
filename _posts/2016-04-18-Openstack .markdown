@@ -14,7 +14,7 @@ Core of the openstack consists of nine key components: Nova, Swift, Cinder, Neut
 Initial contribution
 =====================
 
-This summer I decided to work on Openstack as my first major contribution to the world of open source. The community welcomed me with open arms and helped me get started from the scratch. Nikhil Komawar one of the technical lead at the [Glance](http://docs.openstack.org/developer/glance/) and [Searchlight](https://wiki.openstack.org/wiki/Searchlight) project assisted me with the working and flow of the Glance  model. Further, the potential contributors on the IRC channel helped me fix the proxy and other related issues. 
+This summer I decided to work on Openstack as my first major contribution to the world of open source. The community welcomed me with open arms and helped me get started from the scratch. Nikhil Komawar one of the technical lead at the [Glance](http://docs.openstack.org/developer/glance/) and [Searchlight](https://wiki.openstack.org/wiki/Searchlight) projects assisted me with the working and flow of the Glance  model. Further, the potential contributors on the IRC channel helped me fix the proxy and other related issues. 
 
 After the successful [installation](http://docs.openstack.org/developer/sahara/devref/devstack.html) of [Devstack](http://docs.openstack.org/developer/devstack/) I managed to mark my first contribution by accessing gerrit using [Developer's Guide](http://docs.openstack.org/infra/manual/developers.html). While going through this, I learned a lot about the open source culture, bug-fixing, project documentation, review system. I surely can anticipate that this learning experience would prove out to be of great help in near future.
 
